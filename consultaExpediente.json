@@ -1,0 +1,175 @@
+{
+  "codigo": 200,
+  "mensaje": "Consulta de Expediente Integral Exitosa.",
+  "folioIdentificadorCei": 891883,
+  "datosEntrada": {
+    "cveAfore": 544,
+    "curpAsesor": "MAMM871208MDFRRY09",
+    "cveServicio": "0104",
+    "curpTrabajador": "GUSA900819MMCTLN01",
+    "nss": "16109051504",
+    "rol": "01",
+    "indicaImg": "0",
+    "indicaDatos": "1",
+    "selloVerificacionBiometrica": "81508535329299"
+  },
+  "resultadoServicio": {
+    "rol": "01",
+    "cveServicio": "0104",
+    "resultadoOperacion": "01",
+    "diagnostico": "",
+    "folioConsulta": "54401030000000000008913"
+  },
+  "datosOperativos": {
+    "relacionAfore": "01",
+    "duplicidadCurp": 0,
+    "marcaOperativa": [
+      { "marca": "3301", "proceconvive": "A001", "convivencia": 0 }
+    ],
+    "detalleCurpDuplicada": []
+  },
+  "detalleExpediente": [
+    {
+      "tipoExpe": "01",
+      "estatusExpe": "05",
+      "fchFinVigenExp": "01/02/2025",
+      "fchConformaExp": "15/04/2024",
+      "aforeConformaExp": 544,
+      "fchActualizaExp": ""
+    },
+    {
+      "tipoExpe": "77",
+      "estatusExpe": "05",
+      "fchFinVigenExp": "",
+      "fchConformaExp": "14/04/2024",
+      "aforeConformaExp": 544,
+      "fchActualizaExp": ""
+    },
+    {
+      "tipoExpe": "78",
+      "estatusExpe": "05",
+      "fchFinVigenExp": "",
+      "fchConformaExp": "07/03/2024",
+      "aforeConformaExp": 544,
+      "fchActualizaExp": ""
+    }
+  ],
+  "detalleImage": [
+    {
+      "tipoExpe": "01",
+      "cveDoc": "08",
+      "fchFinVigenciaDoc": "01/04/2025",
+      "fchActualizaDoc": ""
+    },
+    {
+      "tipoExpe": "01",
+      "cveDoc": "31",
+      "fchFinVigenciaDoc": "01/02/2025",
+      "fchActualizaDoc": ""
+    }
+  ],
+  "imgExpe": [],
+  "detalleEnrolamiento": [
+    {
+      "tipoEnrolamiento": "01",
+      "estatusEnrolamiento": "00",
+      "aforeEnroladora": 544,
+      "fechaEnrolamiento": "01/04/2024",
+      "biomCalidad": 1
+    },
+    {
+      "tipoEnrolamiento": "02",
+      "estatusEnrolamiento": "05",
+      "aforeEnroladora": 544,
+      "fechaEnrolamiento": "14/04/2024",
+      "biomCalidad": 1
+    },
+    {
+      "tipoEnrolamiento": "02",
+      "estatusEnrolamiento": "05",
+      "aforeEnroladora": 544,
+      "fechaEnrolamiento": "07/03/2024",
+      "biomCalidad": 1
+    }
+  ],
+  "datosGenerales": [
+    {
+      "rolDatos": "01",
+      "curp": "GUSA900819MMCTLN01",
+      "nss": "16109051504",
+      "rfcTitular": "AOHR760413DXA",
+      "apellidoPaterno": "APODACA",
+      "apellidoMaterno": "HERNANDEZ",
+      "nombre": "REBECA",
+      "fechaNacimiento": "13/04/1976",
+      "nacionalidad": "MEX",
+      "claveGiro": "08",
+      "gradoEstudios": "03",
+      "ocupacion": "61",
+      "sexo": [
+        { "cveGenero": 2, "descripcionGenero": "Femenino" }
+      ],
+      "entidadNacimiento": [
+        { "cveEntidadFederativa": "09", "descripcionCveFede": "CIUDADDEMEXICO", "cveCorta": "0DF" }
+      ],
+      "pais": [
+        { "descripcionPais": "MEXICO", "clavePais": "MEX" }
+      ]
+    }
+  ],
+  "telefono": [
+    { "cveTipoTel": "01", "numTel": "5514514203" },
+    { "cveTipoTel": "01", "numTel": "5514514203" }
+  ],
+  "domicilio": [
+    {
+      "tipo": "02",
+      "calle": "CRUZEIROS",
+      "numeroExterior": "7",
+      "numeroInterior": "null",
+      "colonia": "HEROESDECERROPRIETO",
+      "delegacionMunicipio": { "cveMunicipio": "00000" },
+      "ciudadPoblacion": "0901",
+      "codigoPostal": "07960",
+      "entidadDom": { "cveEntidadFederativa": "00", "descripcionCveFede": "09", "cveCorta": "00" },
+      "pais": { "descripcionPais": "MEXICO", "clavePais": "MEX" }
+    }
+  ],
+  "beneficiarios": {
+    "fechaModificacionBeneficiario": "",
+    "listaBeneficiarios": [
+      {
+        "beneficiario": 1,
+        "curp": "AOHR760413MDFPRB04",
+        "apellidoPaterno": "MARQUEZ",
+        "apellidoMaterno": "APODACA",
+        "nombre": "EDWIN",
+        "porcentajeAsignado": "100"
+      },
+      {
+        "beneficiario": 2,
+        "curp": "MAAE960419HDFRPD05",
+        "apellidoPaterno": "MARQUEZ",
+        "apellidoMaterno": "APODACA",
+        "nombre": "EDWIN",
+        "porcentajeAsignado": "100"
+      }
+    ],
+    "indicadorDesignacion": 1,
+    "indicadorReforma": 1
+  },
+  "cuentaConExpBiometrico": false,
+  "cuentaConExpIdentidad": false,
+  "accionEnrolamiento": 1,
+  "cuentaConMarcasOperativas": true,
+  "cuentaConCurpDuplicidad": 0,
+  "aforeDuplicidad": [],
+  "aforesDuplicados": [],
+  "marcaRegimenDecimoTransitorio": 0,
+  "cuentaConTelefonosContacto": true,
+  "cuentaConBeneficiarios": true,
+  "recuperaImgExp": false,
+  "diagnosticoImgExp": [],
+  "tieneExpedienteIdentidadProcesar": true,
+  "celular": "5514514203"
+}
